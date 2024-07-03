@@ -7,8 +7,13 @@ Chanin Nantasenamat
 4) feature scaling -> se usa para normalizar el rango de las variables independientes
 5) Core steps: 
 
-#### #0. Import --> from scikit.modulename import EstimatorName()      
-#### #1. Instantiate --> model = EstimatorName()                            
-#### #2. Fit -->model.fit(X_train, y_train)                        
-#### #3. Predict --> model.predict(X_test)                               
-#### #4. Score --> model.score(X_test, y_test)                        
+#### #0. Import 
+____________________from scikit.modulename import EstimatorName()      
+#### #1. Instantiate
+____________________model = EstimatorName()                            
+#### #2. Fit 
+____________________model.fit(X_train, y_train)                        
+#### #3. Predict 
+____________________model.predict(X_test)                               
+#### #4. Score 
+____________________model.score(X_test, y_test)                        
